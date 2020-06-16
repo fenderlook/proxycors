@@ -9,7 +9,8 @@
       "request": "launch",
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
-      "program": "${workspaceFolder}/server.js"
+      "program": "${workspaceFolder}/server.js",
+      "runtimeExecutable": "/Users/luisli/.nvm/versions/node/v12.16.1/bin/node"
     }
   ]
 }
