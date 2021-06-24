@@ -14,6 +14,7 @@ Object.keys(config.urls || {}).forEach((key) =>
     `/${key}`,
     proxy(config.urls[key], {
       https: config.urls[key].startsWith('https://'),
+      limit: "200mb",
     })
   )
 );
